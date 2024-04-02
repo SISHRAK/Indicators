@@ -1,8 +1,6 @@
 import pandas as pd
 from binance.um_futures import UMFutures
-import numpy as np
 import ta
-import requests
 
 API_KEY = ""
 API_SECRET_KEY = ""
@@ -34,5 +32,6 @@ def info():
     if rsi >= 80:
         return 1
 
-
-info()
+if __name__ == "__main__":
+    info()
+    
