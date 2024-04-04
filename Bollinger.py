@@ -58,6 +58,7 @@ period = 3
 
 last_time = ""
 
+
 # main loop
 def signal_handler():
     while True:
@@ -92,26 +93,26 @@ def signal_handler():
             if prices[-2] < bollinger_band_high_values[-2] and prices[-1] > bollinger_band_high_values[-1]:
                 if not in_short:
                     short_open(symbol=symbol, quantity=1)
-                    #return 0
+                    # return 0
                     in_short = True
 
             if prices[-2] > moving_average_values[-2] and prices[-1] < moving_average_values[-1]:
                 if in_short:
                     short_close(symbol=symbol, quantity=1)
-                    #return 1
+                    # return 1
                     in_short = False
 
             # long conditions
             if prices[-1] < bollinger_band_low_values[-1] and prices[-2] > bollinger_band_low_values[-2]:
                 if not in_long:
                     long_open(symbol=symbol, quantity=1)
-                    #return 1
+                    # return 1
                     in_long = True
 
             if prices[-2] < moving_average_values[-2] and prices[-1] > moving_average_values[-1]:
                 if in_long:
                     long_close(symbol=symbol, quantity=1)
-                    #return 0
+                    # return 0
                     in_long = False
 
 

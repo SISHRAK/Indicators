@@ -32,6 +32,6 @@ def info():
     if rsi >= 80:
         return 1
 
+
 if __name__ == "__main__":
     info()
-    
