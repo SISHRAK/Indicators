@@ -4,18 +4,18 @@
 
 ## Список индикаторов
 
-1. Скользящее среднее (Moving Average)
-2. MACD (Moving Average Convergence Divergence)
-3. RSI (Relative Strength Index)
-4. Stochastic Oscillator
-5. Bollinger Bands
+1. Скользящее среднее (Moving Average) - done
+2. MACD (Moving Average Convergence Divergence) - done
+3. RSI (Relative Strength Index) - done
+4. Stochastic Oscillator - Stochastic RSI - done
+5. Bollinger Bands - done
 6. Fibonacci Retracement
-7. Volume Weighted Average Price (VWAP)
-8. Индекс относительной силы (Relative Strength Index, RSI)
-9. Индекс направленного движения (Directional Movement Index, ADX)
-10. Параболическая система SAR (Parabolic SAR)
-11. Стохастический осциллятор (Stochastic Oscillator)
-12. Кумулятивный объем (On-Balance Volume, OBV)
+7. Volume Weighted Average Price (VWAP) - done
+8. Индекс относительной силы (Relative Strength Index, RSI) - done
+9. Индекс направленного движения (Directional Movement Index, ADX) - done
+10. Параболическая система SAR (Parabolic SAR) - done
+11. Стохастический осциллятор (Stochastic Oscillator) - done
+12. Кумулятивный объем (On-Balance Volume, OBV) - done
 13. Дивергенция сходящегося осциллятора MACD (MACD Histogram)
 
 ## Как использовать
