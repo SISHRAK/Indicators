@@ -16,7 +16,7 @@
 10. Параболическая система SAR (Parabolic SAR) - done
 11. Стохастический осциллятор (Stochastic Oscillator) - done
 12. Кумулятивный объем (On-Balance Volume, OBV) - done
-13. Дивергенция сходящегося осциллятора MACD (MACD Histogram)
+13. Дивергенция сходящегося осциллятора MACD (MACD Histogram) - done
 
 ## Как использовать
 
